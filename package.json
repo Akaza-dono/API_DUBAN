@@ -1,0 +1,24 @@
+{
+  "name": "technicaltestapi",
+  "version": "1.0.0",
+  "description": "Project for thecnical test",
+  "main": "./src/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon ./src/index.js"
+  },
+  "keywords": [
+    "node",
+    "js"
+  ],
+  "author": "Duban Quevedo",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "pg": "^8.13.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
