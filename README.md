@@ -12,17 +12,30 @@ Este es un proyecto de backend desarrollado en Node.js utilizando Express como f
 
 ## Instalación
 
-1. Clona este repositorio en tu máquina local:
 
-   ```bash
-   git clone https://github.com/akaza-dono/API_DUBAN
+## query
+
+   debe correr el query que se encuentra en la ruta en un servidor de postgres sql
+   
+   -./TECHNICALTESTAPI/src/database/databaseCreation.sql
+
+## host
+
+   modificar el host para que tenga acceso al servidor de bases de datos de postgres en el archivo 
+   -./TECHNICALTESTAPI/src/database/connectionPostgre.js
+
 ## instala las dependencias 
 
   ```bash
 npm install
+  ```
+## Corre el proyecto
 
-npm run para correr los diferentes scrips
+  ```bash
+npm run dev
+  ```
 
-"scripts": 
-    "dev": "nodemon ./src/index.js"
+
+
+
  
