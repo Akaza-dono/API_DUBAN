@@ -8,4 +8,3 @@ export const getUsuarios = async () => {
         console.error('it was an error fetching the data');
     }
 }
-

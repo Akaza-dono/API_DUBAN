@@ -1,5 +1,5 @@
 CREATE DATABASE TechnicalTest;
-\c TechnicalTest;
+/c TechnicalTest;
 
 BEGIN;
 
